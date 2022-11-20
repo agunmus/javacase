@@ -1,4 +1,5 @@
 public class Product {
+
     private int id;
     private double price;
     private double discountRate;
@@ -11,5 +12,25 @@ public class Product {
         this.discountRate = discountRate;
         this.quantity = quantity;
         this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public double getDiscountRate() {
+        return discountRate;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public String getName() {
+        return name;
     }
 }
